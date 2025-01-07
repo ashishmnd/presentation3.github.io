@@ -1,0 +1,86 @@
+[
+  {
+    "objectID": "index.html#agenda",
+    "href": "index.html#agenda",
+    "title": "Data Manipulation with the R package dplyr",
+    "section": "Agenda",
+    "text": "Agenda\n\nIntroduction\nKey Features of dplyr\nCore Functions (Verbs)\nExercise\nConclusion"
+  },
+  {
+    "objectID": "index.html#introduction",
+    "href": "index.html#introduction",
+    "title": "Data Manipulation with the R package dplyr",
+    "section": "Introduction",
+    "text": "Introduction\ndplyr is a powerful R package designed to make data manipulation easier and more intuitive. It provides a consistent set of functions (verbs) to handle common data wrangling tasks."
+  },
+  {
+    "objectID": "index.html#core-verbs-of-dplyr",
+    "href": "index.html#core-verbs-of-dplyr",
+    "title": "Data Manipulation with the R package dplyr",
+    "section": "Core Verbs of dplyr",
+    "text": "Core Verbs of dplyr\n\nfilter ():\nselect ():\nmutate ():\nsummarise ():\narrange ():"
+  },
+  {
+    "objectID": "index.html#filter",
+    "href": "index.html#filter",
+    "title": "Data Manipulation with the R package dplyr",
+    "section": "filter():",
+    "text": "filter():\n\nPurpose: Extract rows that meet specific conditions.\nSyntax: filter(data, condition).\nExample: filter(mtcars, mpg &gt; 20)."
+  },
+  {
+    "objectID": "index.html#select",
+    "href": "index.html#select",
+    "title": "Data Manipulation with the R package dplyr",
+    "section": "select()",
+    "text": "select()\n\nPurpose: Choose or rename specific columns.\nSyntax: select(data, column1, column2).\nExample: select(mtcars, mpg, hp)."
+  },
+  {
+    "objectID": "index.html#mutate",
+    "href": "index.html#mutate",
+    "title": "Data Manipulation with the R package dplyr",
+    "section": "mutate()",
+    "text": "mutate()\n\nPurpose: Create or transform columns.\nSyntax: mutate(data, new_column = expression)\nExample: mutate(mtcars, hp_per_mpg = hp / mpg)"
+  },
+  {
+    "objectID": "index.html#summarise-and-group_by",
+    "href": "index.html#summarise-and-group_by",
+    "title": "Data Manipulation with the R package dplyr",
+    "section": "summarise() and group_by()",
+    "text": "summarise() and group_by()\n\nPurpose: Summarize data, especially after grouping.\nSyntax:summarise(data, summary = function(column)).\nExample: mtcars %&gt;% group_by(cyl) %&gt;% summarise(mean_mpg = mean(mpg))"
+  },
+  {
+    "objectID": "index.html#arrange",
+    "href": "index.html#arrange",
+    "title": "Data Manipulation with the R package dplyr",
+    "section": "arrange()",
+    "text": "arrange()\n\nPurpose: Reorder rows based on column values.\nSyntax: arrange(data, column).\nExample: arrange(mtcars, desc(mpg))."
+  },
+  {
+    "objectID": "index.html#piping-with",
+    "href": "index.html#piping-with",
+    "title": "Data Manipulation with the R package dplyr",
+    "section": "Piping with %>%",
+    "text": "Piping with %&gt;%\n\nwhen you start to combine multiple verbs.\nExample without pipe: summarise(group_by(mtcars, cyl), mean_mpg = mean(mpg))\nExample with pipe: mtcars %&gt;% group_by(cyl) %&gt;% summarise(mean_mpg = mean(mpg))"
+  },
+  {
+    "objectID": "index.html#exercise",
+    "href": "index.html#exercise",
+    "title": "Data Manipulation with the R package dplyr",
+    "section": "Exercise",
+    "text": "Exercise\nScenario\nThe company needs to select the best employees for a new tech project.\nThe project requires:\n\nRelevant roles: Software Engineers, Data Scientists, DevOps Engineers, or Front-End Developers.\nYears of experience: At least 5 years.\nKey skills: Python, AWS, or JavaScript.\n\nThe goal is to use the dplyr package to filter and rank employees based on the given criteria."
+  },
+  {
+    "objectID": "index.html#conclusion",
+    "href": "index.html#conclusion",
+    "title": "Data Manipulation with the R package dplyr",
+    "section": "Conclusion",
+    "text": "Conclusion\ndplyr simplifies data manipulation and the core verbs provide a powerful toolkit. The pipe enhances code readability."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  }
+]
